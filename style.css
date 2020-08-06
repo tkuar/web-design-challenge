@@ -1,0 +1,140 @@
+body{
+  background-color: #b7b9ff; 
+}
+
+img{
+  padding-top: 1px;
+  padding-bottom: 5px;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+th{
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+td{
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+p{
+  color: #6D8092;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 15px; 
+}
+
+a{
+  color: #3a3c92;
+  font-size: 15px; 
+}
+
+.container{
+  margin-top: 20px;
+}
+
+.container .box{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box {
+  margin-top: 60px; 
+  margin-bottom: 60px;
+  background-color: #FFFFFF;
+}
+
+.row{
+  padding-bottom: 45px;
+}
+
+.visual{
+  width:65% !important;
+  height:65% !important;
+}
+
+.title{
+  color: #3a3c92;  
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: bolder; 
+  padding-top: 25px; 
+}
+
+.table-responsive{
+  overflow-x: auto; 
+  overflow-y: auto; 
+  max-height: 600px; 
+  max-width:  auto; 
+} 
+
+.navbar{
+  max-height: 55px;
+  background-color: #e4e4fc !important; 
+  font-size: 15px; 
+} 
+
+.navbar-brand{
+  color: #e4e4fc !important; 
+  margin-left: 30px; 
+  padding: inherit; 
+  font-weight: bold; 
+  background-color: #3a3c92;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.nav-link{
+  color: #3a3c92 !important;
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+.active, .dropdown-menu .dropdown-item:active a:hover{
+  background-color: #e6e6ff !important; 
+}
+
+.dropdown-item{
+  color: #3a3c92 !important;
+  font-family: "Lucida Console", Monaco, monospace; 
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  background-color: #e6e6ff !important; 
+}
+
+.nav-link:hover{
+  background-color:#b7b9ff !important;
+}
+
+.navbar-brand:hover{
+  color: #e6e6ff !important;
+}
+
+.active, .panel:hover{
+  border-color:#3a3c92;
+  border-style: solid; 
+}
+
+@media(max-width: 950px){
+
+  .navbar-expand-lg{
+    background-color: #3a3c92 !important;
+  }
+
+  .navbar{
+    max-height: none; 
+    padding: inherit;
+  }
+  .navbar div{
+    margin: inherit; 
+    background-color: #e4e4fc;  
+  }
+
+  .navbar-brand{
+    padding: 10px !important; 
+  }
+
+  button{
+    margin-right: 30px; 
+  }
+
+}

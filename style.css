@@ -171,11 +171,11 @@ a{
   }
   
   .nav-link:hover{
-    background-color:#9093e6 !important;
+    background-color:#b0b3f0 !important;
   }
 
   .dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
-    background-color: #9093e6 !important; 
+    background-color: #b0b3f0 !important; 
   }
   
   button{
